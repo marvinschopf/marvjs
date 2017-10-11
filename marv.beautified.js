@@ -19,4 +19,3 @@ function setCookie(Bezeichner, Wert, Verfall) {
     var Auszeit = new Date(jetzt.getTime() + Verfall);
     document.cookie = Bezeichner + "=" + Wert + "; expires="+Auszeit.toGMTString() + ";";
 }
-
